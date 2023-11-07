@@ -19,13 +19,55 @@ li{
   border-style: groove;
   padding: 10px;
   border-radius: 5px;
-
+  width: 600px;
 }
 
 .delete{
+  
   position: relative;
   left: 400px;
   background-color: rgb(255, 0, 0);
   color:white;
   border-color: white;
+}
+.trigger{
+  color:white;
+  background-color: rgb(80, 80, 202);
+  border: white;
+}
+.completed{
+  border-color: green;
+}
+.uncompleted{
+  border-color: red;
+}
+.warning{
+  background-color: rgb(240, 130, 130);
+  color: white;
+  margin:10px 100px 10px 100px;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+.alert{
+  font-weight: bold;
+  padding: 10px;
+  margin:10px 100px 10px 100px;
+  background-color: rgb(220, 220, 75);
+  color: white;
+  border-radius: 10px;
+}
+.success{
+  font-weight: bold;
+  margin:10px 100px 10px 100px;
+  background-color:rgb(153, 237, 153);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.hide{
+  margin-left: 100px;
+  background-color: white;
+  color: black;
+  border: white;
 }

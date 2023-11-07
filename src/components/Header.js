@@ -1,7 +1,10 @@
 import React from 'react'
+import '../components/Header.css'
 
-export const Header = () => {
+export const Header = (props) => {
   return (
-    <div>Header</div>
+    <div className='header'>
+       <h1>List of Daily {props.title}</h1>
+    </div>
   )
 }
