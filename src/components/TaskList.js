@@ -17,13 +17,13 @@ export const TaskList = ({info}) => {
     ])
   return (
     <>
-        <button onClick={()=>setShow(!show)} className="trigger">Toggle</button>
+        <button onClick={()=>setShow(!show)} className="trigger">{show ? "Hide":"show"}</button>
         <ul>
             {show && tasks.map((task)=>(
                 <TaskCard key={task.id} task={task} info={info} handleDelete={handleDelete}/>  
             ))}
         </ul>
-
+{/* 
         <BoxCard result="warning">
             <p>warning</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt obcaecati, sint dolore autem eos harum temporibus ipsam rerum, recusandae totam molestias eaque magnam culpa quod dolor eius. Sit, aut eligendi?</p>
@@ -35,7 +35,7 @@ export const TaskList = ({info}) => {
         <BoxCard result="success">
             <p>success</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magni tenetur cumque soluta suscipit, et fugiat voluptas quasi perferendis quam deserunt harum expedita nostrum necessitatibus molestias maxime non aliquid recusandae.</p>
-        </BoxCard>
+        </BoxCard> */}
     </>
   )
 }

@@ -4,7 +4,6 @@ img{
 }
 button{
     border-radius: 5px;
-    width:100px;
     font-size: small;
     font: 1em sans-serif;
     margin: 10px;
@@ -23,9 +22,8 @@ li{
 }
 
 .delete{
-  
   position: relative;
-  left: 400px;
+  left: 350px;
   background-color: rgb(255, 0, 0);
   color:white;
   border-color: white;
